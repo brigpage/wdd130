@@ -9,7 +9,7 @@
     --heading-font: 'Grape Nuts', cursive; 
     --paragraph-font:'Dosis', san-sarif; 
 
-    --nav-background:var(--accent1--color);
+    --nav-background-color:var(--accent1--color);
     --nav-link-color:var(--primary-color);
     --nav-hover-link-color:var(--accent2-color);
     --nav-hover-background-color:var(--accent2-color);
