@@ -8,8 +8,8 @@
     --accent1--color: #AD884B;
     --accent2-color: seagreen;
 
-    --heading-font: url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Grape+Nuts&display=swap), san-sarif;
-    --paragraph-font: url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap), cursive;
+    --heading-font:url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap), cursive; 
+    --paragraph-font:url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Grape+Nuts&display=swap), san-sarif; 
 
     --nav-background:var(--accent1--color);
     --nav-link-color:var(--primary-color);
