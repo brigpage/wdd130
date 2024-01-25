@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Grape+Nuts&display=swap');
+
+:root {
+    --primary-color: #2d8eaf;
+    --secondary-color: #25383e;
+    --accent1--color: #AD884B;
+    --accent2-color: seagreen;
+
+    --heading-font: 'Grape Nuts', cursive; 
+    --paragraph-font:'Dosis', san-sarif; 
+
+    --nav-background-color:var(--accent1--color);
+    --nav-link-color:var(--primary-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--accent2-color);
+
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1--color);
+}
+
+p{
+    padding: 25px;
+}
+
+.hero img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    position: relative;
+}
+
+.h1{
+    position: absolute;
+}
+
+.article{
+    position: absolute;
+    float: right; 
+    background-color: lightcyan;
+    opacity: 1; 
+}
