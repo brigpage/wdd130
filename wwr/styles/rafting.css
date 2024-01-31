@@ -43,11 +43,11 @@ p{
     position: relative;
 }
 
-.h1{
+.hero h1{
     position: absolute;
 }
 
-.article{
+.hero article{
     position: absolute;
     float: right; 
     background-color: lightcyan;
