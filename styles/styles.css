@@ -83,6 +83,11 @@ aside{
     grid-row: 1/2;
 }
 
+.grid{
+    display: grid; 
+    align-items: center; 
+}
+
 aside h2{
     position: absolute;
     top:auto;
