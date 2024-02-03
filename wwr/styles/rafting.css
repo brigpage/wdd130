@@ -44,7 +44,7 @@ p{
 }
 
 #hero h1{
-    position: relative;
+    position: absolute;
     text-align: center;
 }
 
