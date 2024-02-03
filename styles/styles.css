@@ -72,8 +72,8 @@ header, .grid, footer {
     margin: 1rem;
     padding: 1rem;
     border: 0;
-    background-color: #8CB58E;
-    color:gainsboro;
+    background-color: lightgray;
+    color:darkslategray;
 }
 
 aside{
