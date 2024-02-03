@@ -39,21 +39,25 @@ p{
     padding: 25px;
 }
 
-.hero img {
+#hero {
+    position: relative; 
+}
+
+#hero img {
     display: block;
     width: 100%; 
     height: auto; 
-    position: absolute;
+    position: relative;
 }
 
-.hero h1{
+#hero h1{
     position: relative;
     text-align: center;
 }
 
-.hero article{
-    position: relative;
-    float: center; 
+#hero article{
+    position: absolute;
+    float: right; 
     background-color: lightcyan;
     opacity: 1; 
 }
