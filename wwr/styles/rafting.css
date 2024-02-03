@@ -43,13 +43,6 @@ p{
     position: relative; 
 }
 
-#hero img {
-    display: block;
-    width: 100%; 
-    height: auto; 
-    position: relative;
-}
-
 #hero h1{
     position: relative;
     text-align: center;
@@ -60,4 +53,11 @@ p{
     float: right; 
     background-color: lightcyan;
     opacity: 1; 
+}
+
+#hero img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    position: relative;
 }
