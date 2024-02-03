@@ -31,8 +31,9 @@ header{
     padding: 20px;
     background-color: var(--accent1--color);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px 1fr;
     grid-template-rows: 1fr;
+    align-items: right;
 }
 
 p{
@@ -40,24 +41,27 @@ p{
 }
 
 #hero {
-    position: relative; 
+    position: relative;
+    border: 2px solid blue 
+}
+
+#hero img {
+    display: grid;
+    width: 100%; 
+    height: auto; 
+    position: relative;
 }
 
 #hero h1{
     position: absolute;
     text-align: center;
+    top: 0;
 }
 
-#hero article{
+#hero article img{
     position: absolute;
     float: right; 
     background-color: lightcyan;
     opacity: 1; 
 }
 
-#hero img {
-    display: block;
-    width: 100%; 
-    height: auto; 
-    position: relative;
-}
