@@ -31,7 +31,8 @@ header{
     padding: 20px;
     background-color: var(--accent1--color);
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 p{
@@ -42,16 +43,17 @@ p{
     display: block;
     width: 100%; 
     height: auto; 
-    position: relative;
+    position: absolute;
 }
 
 .hero h1{
-    position: absolute;
+    position: relative;
+    text-align: center;
 }
 
 .hero article{
-    position: absolute;
-    float: right; 
+    position: relative;
+    float: center; 
     background-color: lightcyan;
     opacity: 1; 
 }
