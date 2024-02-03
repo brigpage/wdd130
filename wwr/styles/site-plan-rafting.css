@@ -3,15 +3,15 @@
 :root {
     --primary-color: #2d8eaf;
     --secondary-color: #25383e;
-    --accent1--color: #AD884B;
-    --accent2-color: seagreen;
+    --accent1-color: lightgrey;
+    --accent2-color: grey;
 
     --heading-font: 'Grape Nuts', cursive; 
     --paragraph-font:'Dosis', san-sarif; 
 
-    --nav-background-color:var(--accent1--color);
+    --nav-background-color:var(--accent1-color);
     --nav-link-color:var(--primary-color);
-    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--secondary-color);
     --nav-hover-background-color:var(--accent2-color);
 
 }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     padding: 20px;
-    background-color: var(--accent1--color);
+    background-color: var(--accent1-color);
 }
 
 p{
